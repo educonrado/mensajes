@@ -1,2 +1,10 @@
 server:
   port: 8081
+spring:
+  data:
+    redis:
+      database: 0
+      host: url
+      port: 10
+      password: asd
+      timeout: 60000
